@@ -1,0 +1,31 @@
+# JavaStud
+
+JavaStud is a historical Java learning archive containing tutorial references, assignments, setup notes, and topic maps from core Java through older Java web-development workflows.
+
+## Topics
+
+- Java syntax and control flow
+- Object-oriented programming
+- Exceptions
+- Collections and generics
+- Threads
+- File IO and serialization
+- JDBC
+- Swing
+- Servlet and JSP
+- Maven
+- Hibernate
+- Spring MVC and dependency injection
+- Design patterns
+- Java 8 concepts
+- JUnit
+
+## Status
+
+This repository is retained as a study archive. Some examples, setup instructions, libraries, and framework approaches may be outdated.
+
+For new projects, prefer a supported JDK such as Java 17 or Java 21, JUnit 5, current Maven or Gradle versions, and modern Spring Boot documentation.
+
+## Repository
+
+https://github.com/Nischhalsubba/JavaStud
