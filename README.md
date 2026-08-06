@@ -2,6 +2,92 @@
 
 # ☕ JavaStud
 
+<!-- interactive-readme-standard:start -->
+
+> [!NOTE]
+> **Branch-specific documentation:** this section is maintained for [`master`](https://github.com/Nischhalsubba/JavaStud/tree/master). It is generated from the files present on this branch and preserves the project-authored README below.
+
+<details open>
+<summary><strong>Interactive repository guide</strong></summary>
+
+## Branch overview
+
+| Item | Value |
+|---|---|
+| Repository | [`Nischhalsubba/JavaStud`](https://github.com/Nischhalsubba/JavaStud) |
+| Branch | [`master`](https://github.com/Nischhalsubba/JavaStud/tree/master) |
+| Detected stack | Java |
+| Detected manifests | No standard manifest detected |
+| Documentation policy | Every maintained branch must explain purpose, setup, structure, architecture, flows, testing, delivery, security, and ownership. |
+
+## Repository structure
+
+```mermaid
+flowchart TD
+    ROOT["JavaStud / master"]
+    ROOT --> P0[".github/"]
+    ROOT --> P1[".settings/"]
+    ROOT --> P2["resource/"]
+    ROOT --> P3["src/"]
+    ROOT --> P4[".classpath"]
+    ROOT --> P5[".gitignore"]
+    ROOT --> P6[".project"]
+    ROOT --> P7["Assignments.MD"]
+    ROOT --> P8["forms-1.3.0.jar"]
+    ROOT --> P9["HibernateConfiguration.MD"]
+    ROOT --> P10["IndustrialJava.MD"]
+    ROOT --> P11["llms.txt"]
+    ROOT --> P12["miglayout15-swing.jar"]
+    ROOT --> P13["SpringDependInjection.md"]
+    ROOT --> P14["SpringDi.md"]
+```
+
+The diagram is generated from the branch's actual top-level files and directories. Use the branch link above for complete source navigation.
+
+## Website or application structure
+
+```mermaid
+flowchart TD
+    APP["JavaStud"]
+    APP --> SOURCE["No conventional route directory detected"]
+    SOURCE --> VERIFY["Inspect the project-specific documentation below"]
+```
+
+## Application and responsibility flow
+
+```mermaid
+flowchart LR
+    ACTOR["User / contributor"]
+    ACTOR --> A0["Interface: src"]
+    A0 --> A1["Delivery: .github"]
+    A1 --> DELIVERY["Delivery: GitHub Actions"]
+```
+
+## Change-to-delivery flow
+
+```mermaid
+flowchart LR
+    CHANGE["Change on master"]
+    CHECK["Validate: Project-specific validation"]
+    REVIEW["Review documentation and architecture impact"]
+    RELEASE["Merge, release, or deploy according to this branch"]
+    CHANGE --> CHECK --> REVIEW --> RELEASE
+```
+
+## README requirements for this branch
+
+- Explain what this branch contains and how it differs from the default branch.
+- Keep installation, configuration, usage, testing, deployment, security, support, and license information accurate.
+- Document repository, website or application, API, data, authentication, background-job, and deployment flows when they exist.
+- Prefer Mermaid diagrams and expandable `<details>` sections for visual navigation.
+- Link diagrams and modules to real source paths; never invent missing components.
+- Preserve project-specific documentation and update diagrams whenever architecture or major paths change.
+- Treat secrets, private infrastructure, customer data, and credentials as prohibited README content.
+
+</details>
+
+<!-- interactive-readme-standard:end -->
+
 ### Java Tutorial, Assignment, and Practice Archive
 
 **A Java learning repository containing tutorial references, topic breakdowns, assignment lists, setup notes, and practice direction for core Java, OOP, exceptions, collections, JDBC, Swing, Servlet/JSP, Maven, Hibernate, Spring, design patterns, Java 8, and JUnit.**
