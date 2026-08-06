@@ -1,24 +1,53 @@
-# JavaStud
-
 <!-- interactive-readme-standard:start -->
 
-> [!NOTE]
-> **Branch-specific documentation:** this section is maintained for [`v1`](https://github.com/Nischhalsubba/JavaStud/tree/v1). It is generated from the files present on this branch and preserves the project-authored README below.
+<div align="center">
 
-<details open>
-<summary><strong>Interactive repository guide</strong></summary>
+# JavaStud
 
-## Branch overview
+**Branch-aware technical guide for [`v1`](https://github.com/Nischhalsubba/JavaStud/tree/v1)**
 
-| Item | Value |
+<p><img alt="branch: v1" src="https://img.shields.io/static/v1?label=&message=branch%3A%20v1&color=5965F2&style=flat-square"> <img alt="Java" src="https://img.shields.io/static/v1?label=&message=Java&color=24292F&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
+
+<p>
+  <a href="https://github.com/Nischhalsubba/JavaStud/tree/v1"><strong>Browse source</strong></a> ·
+  <a href="https://github.com/Nischhalsubba/JavaStud/issues"><strong>Issues</strong></a> ·
+  <a href="https://github.com/Nischhalsubba/JavaStud/codespaces/new?ref=v1"><strong>Open in Codespaces</strong></a>
+</p>
+
+</div>
+
+> [!IMPORTANT]
+> This guide is generated from the files actually present on `v1`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
+
+## At a glance
+
+| Item | Detected value |
 |---|---|
-| Repository | [`Nischhalsubba/JavaStud`](https://github.com/Nischhalsubba/JavaStud) |
-| Branch | [`v1`](https://github.com/Nischhalsubba/JavaStud/tree/v1) |
-| Detected stack | Java |
-| Detected manifests | No standard manifest detected |
-| Documentation policy | Every maintained branch must explain purpose, setup, structure, architecture, flows, testing, delivery, security, and ownership. |
+| Purpose | A Java project documented from the current branch structure and manifests. |
+| Branch role | Compared with `master` |
+| Stack | Java |
+| Manifests | No standard manifest detected |
+| Prerequisites | Confirm from the detected manifests |
+| Delivery | No conventional deployment configuration detected |
+| License | No license file detected |
 
-## Repository structure
+## Branch scope
+
+This branch differs from the default branch in the following detected paths:
+
+- [`README.md`](https://github.com/Nischhalsubba/JavaStud/blob/v1/README.md)
+
+## Quick start
+
+> No reliable setup command was detected. Use the preserved project-authored notes and manifests rather than guessing.
+
+### Configuration surface
+
+- No committed environment example file was detected.
+
+> Never commit secrets, private keys, production credentials, customer data, or unredacted infrastructure details.
+
+## Repository map
 
 ```mermaid
 flowchart TD
@@ -38,49 +67,143 @@ flowchart TD
     ROOT --> P12["SpringDi.md"]
 ```
 
-The diagram is generated from the branch's actual top-level files and directories. Use the branch link above for complete source navigation.
+| Responsibility | Detected source paths |
+|---|---|
+| Interface | [`src`](https://github.com/Nischhalsubba/JavaStud/tree/v1/src) |
 
-## Website or application structure
+## Website or application map
 
 ```mermaid
 flowchart TD
     APP["JavaStud"]
     APP --> SOURCE["No conventional route directory detected"]
-    SOURCE --> VERIFY["Inspect the project-specific documentation below"]
+    SOURCE --> GUIDE["Use the repository and architecture maps below"]
 ```
 
-## Application and responsibility flow
+## Architecture and responsibility flow
 
 ```mermaid
 flowchart LR
-    ACTOR["User / contributor"]
-    ACTOR --> A0["Interface: src"]
+    USER["User / contributor"]
+    USER --> A0["Interface: src"]
 ```
 
-## Change-to-delivery flow
+<details>
+<summary><strong>Authentication and authorization flow</strong></summary>
 
 ```mermaid
 flowchart LR
-    CHANGE["Change on v1"]
-    CHECK["Validate: Project-specific validation"]
-    REVIEW["Review documentation and architecture impact"]
-    RELEASE["Merge, release, or deploy according to this branch"]
-    CHANGE --> CHECK --> REVIEW --> RELEASE
+    USER["User"] --> SIGNIN["Sign-in or identity step"]
+    SIGNIN --> VERIFY["Verify credentials / session"]
+    VERIFY --> AUTHORIZE["Resolve permissions"]
+    AUTHORIZE --> PROTECTED["Protected feature or data"]
+    VERIFY -->|failure| RECOVER["Error or recovery path"]
 ```
 
-## README requirements for this branch
+Relevant detected files: [`src/swing/LoginScreenLayout.java`](https://github.com/Nischhalsubba/JavaStud/blob/v1/src/swing/LoginScreenLayout.java), [`src/swing/proj/LoginScreenLayout.java`](https://github.com/Nischhalsubba/JavaStud/blob/v1/src/swing/proj/LoginScreenLayout.java).
 
-- Explain what this branch contains and how it differs from the default branch.
-- Keep installation, configuration, usage, testing, deployment, security, support, and license information accurate.
-- Document repository, website or application, API, data, authentication, background-job, and deployment flows when they exist.
-- Prefer Mermaid diagrams and expandable `<details>` sections for visual navigation.
-- Link diagrams and modules to real source paths; never invent missing components.
-- Preserve project-specific documentation and update diagrams whenever architecture or major paths change.
-- Treat secrets, private infrastructure, customer data, and credentials as prohibited README content.
+> The diagram expresses the responsibility sequence only. Confirm exact providers, token formats, roles, and recovery behavior in the linked source.
+
+</details>
+
+## Quality, security, and operations
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Quality
+
+- No conventional test directory was detected automatically.
+
+Detected commands:
+- No standard quality command detected.
+
+</td>
+<td width="33%" valign="top">
+
+### Security
+
+- No dedicated security policy or automated dependency configuration was detected.
+
+Review authentication, authorization, input validation, dependency updates, secret handling, and failure recovery before release.
+
+</td>
+<td width="34%" valign="top">
+
+### Observability
+
+- No dedicated observability integration was detected automatically.
+
+Define useful logs, metrics, traces, alerts, and rollback signals for production-facing branches.
+
+</td>
+</tr>
+</table>
+
+## Delivery flow
+
+```mermaid
+flowchart LR
+    CHANGE["Change on v1"] --> CHECK["Tests and quality checks"]
+    CHECK --> REVIEW["Review architecture and documentation impact"]
+    REVIEW --> BUILD["Build or package"]
+    BUILD --> DEPLOY["Deploy or release"]
+    DEPLOY --> VERIFY["Verify health and rollback readiness"]
+```
+
+### Automation detected
+
+- No GitHub Actions workflow files were detected.
+
+## Contribution flow
+
+```mermaid
+flowchart LR
+    FORK["Create branch"] --> CHANGE["Make focused change"]
+    CHANGE --> TEST["Run relevant checks"]
+    TEST --> DOCS["Update README and diagrams"]
+    DOCS --> PR["Open pull request"]
+    PR --> REVIEW["Review and iterate"]
+    REVIEW --> MERGE["Merge when ready"]
+```
+
+- Keep changes focused and explain architectural consequences.
+- Run the checks relevant to the changed area.
+- Update diagrams whenever routes, modules, data models, authentication, jobs, or delivery paths change.
+- Add screenshots or recordings for visual behavior changes when useful.
+- Use issues for reproducible defects and pull requests for reviewable changes.
+
+## Ownership and support
+
+| Topic | Source |
+|---|---|
+| Repository | [`Nischhalsubba/JavaStud`](https://github.com/Nischhalsubba/JavaStud) |
+| Branch | [`v1`](https://github.com/Nischhalsubba/JavaStud/tree/v1) |
+| Ownership | No CODEOWNERS file detected |
+| Contributing | Use the contribution flow above |
+| Support | [Open or review issues](https://github.com/Nischhalsubba/JavaStud/issues) |
+| License | No license file detected |
+
+<details>
+<summary><strong>Documentation maintenance checklist</strong></summary>
+
+- [ ] Purpose and branch scope are accurate.
+- [ ] Setup and configuration commands still work.
+- [ ] Repository, application, API, data, authentication, job, and deployment diagrams match the code.
+- [ ] Tests, security controls, observability, and rollback behavior are documented.
+- [ ] Links point to real files on this branch.
+- [ ] No secrets or private operational details are exposed.
 
 </details>
 
 <!-- interactive-readme-standard:end -->
+
+<!-- project-authored-notes:start -->
+<details>
+<summary><strong>Project-authored notes preserved from this branch</strong></summary>
+
+# JavaStud
 
 This is java tutorial example series.
 
@@ -221,3 +344,6 @@ Java soft installation:
  ```
 
 [Assignments: ] (https://github.com/yrojha4ever/JavaStud/blob/master/Assignments.MD)
+
+</details>
+<!-- project-authored-notes:end -->
