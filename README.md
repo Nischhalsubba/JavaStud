@@ -1,4 +1,87 @@
 # JavaStud
+
+<!-- interactive-readme-standard:start -->
+
+> [!NOTE]
+> **Branch-specific documentation:** this section is maintained for [`release`](https://github.com/Nischhalsubba/JavaStud/tree/release). It is generated from the files present on this branch and preserves the project-authored README below.
+
+<details open>
+<summary><strong>Interactive repository guide</strong></summary>
+
+## Branch overview
+
+| Item | Value |
+|---|---|
+| Repository | [`Nischhalsubba/JavaStud`](https://github.com/Nischhalsubba/JavaStud) |
+| Branch | [`release`](https://github.com/Nischhalsubba/JavaStud/tree/release) |
+| Detected stack | Java |
+| Detected manifests | No standard manifest detected |
+| Documentation policy | Every maintained branch must explain purpose, setup, structure, architecture, flows, testing, delivery, security, and ownership. |
+
+## Repository structure
+
+```mermaid
+flowchart TD
+    ROOT["JavaStud / release"]
+    ROOT --> P0[".settings/"]
+    ROOT --> P1["resource/"]
+    ROOT --> P2["src/"]
+    ROOT --> P3[".classpath"]
+    ROOT --> P4[".gitignore"]
+    ROOT --> P5[".project"]
+    ROOT --> P6["Assignments.MD"]
+    ROOT --> P7["forms-1.3.0.jar"]
+    ROOT --> P8["HibernateConfiguration.MD"]
+    ROOT --> P9["IndustrialJava.MD"]
+    ROOT --> P10["miglayout15-swing.jar"]
+    ROOT --> P11["SpringDependInjection.md"]
+    ROOT --> P12["SpringDi.md"]
+```
+
+The diagram is generated from the branch's actual top-level files and directories. Use the branch link above for complete source navigation.
+
+## Website or application structure
+
+```mermaid
+flowchart TD
+    APP["JavaStud"]
+    APP --> SOURCE["No conventional route directory detected"]
+    SOURCE --> VERIFY["Inspect the project-specific documentation below"]
+```
+
+## Application and responsibility flow
+
+```mermaid
+flowchart LR
+    ACTOR["User / contributor"]
+    ACTOR --> A0["Interface: src"]
+```
+
+## Change-to-delivery flow
+
+```mermaid
+flowchart LR
+    CHANGE["Change on release"]
+    CHECK["Validate: Project-specific validation"]
+    REVIEW["Review documentation and architecture impact"]
+    RELEASE["Merge, release, or deploy according to this branch"]
+    CHANGE --> CHECK --> REVIEW --> RELEASE
+```
+
+## README requirements for this branch
+
+- Explain what this branch contains and how it differs from the default branch.
+- Keep installation, configuration, usage, testing, deployment, security, support, and license information accurate.
+- Document repository, website or application, API, data, authentication, background-job, and deployment flows when they exist.
+- Prefer Mermaid diagrams and expandable `<details>` sections for visual navigation.
+- Link diagrams and modules to real source paths; never invent missing components.
+- Preserve project-specific documentation and update diagrams whenever architecture or major paths change.
+- Treat secrets, private infrastructure, customer data, and credentials as prohibited README content.
+
+</details>
+
+<!-- interactive-readme-standard:end -->
+
 This is java tutorial example series.
 
 Java Tutorial(http://yro-tech.blogspot.com/ for more java resource):<br/>
